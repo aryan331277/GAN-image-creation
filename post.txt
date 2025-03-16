@@ -1,0 +1,34 @@
+🚀 AI that paints landscapes? 🎨🌄
+I built and trained a GAN to generate realistic landscapes in just one week! 🌍✨ The journey was intense, full of rapid learning, and challenging, but the results were worth it!
+
+🛠 Steps I Followed:
+🔹 Data Preparation – Curated and preprocessed a dataset of landscapes.
+🔹 Model Architecture:
+Generator: Used Conv2DTranspose layers with ReLU activations to upsample images progressively.
+Discriminator: Built with Conv2D layers and LeakyReLU activations to classify real vs. generated images.
+🔹 Training & Optimization – Experimented with hyperparameters for stable learning.
+🔹 Fine-Tuning – Adjusted learning rates, loss functions, and optimizers (Adam with β=0.5).
+🔹 Evaluation – Monitored d_loss (~0.46) and g_loss (~1.89) to ensure stability.
+
+🚧 Challenges Faced:
+🔸 Mode collapse – Initially, the generator produced repetitive outputs.
+🔸 Discriminator overpowering – Had to balance training to avoid an overfitted discriminator.
+
+🌟 Future Plans:
+✅ Further improving image quality using Progressive Growing GANs.
+✅ Exploring StyleGAN for more artistic control.
+ 
+GANs continue to amaze me with their potential in art, design, and AI creativity! Would love to hear feedback and ideas from the community! 💡🚀
+
+📸 Image Progression Over Time:
+Image 1: Output at 172 epochs
+Image 2: Output at 160 epochs
+Image 3: Output at 150 epochs
+Image 4: Output at 140 epochs
+Image 5: Output at 120 epochs
+Image 6: Output at 100 epochs
+Image 7: Output at 80 epochs
+Image 8: Output at 60 epochs
+Image 9: Output at 40 epochs
+Image 10: Output at 20 epochs
+Image 11: Output at 1 epoch
